@@ -1,0 +1,14 @@
+ 
+ t = ("a", "b", "ghiles", "begaz", "example")
+ 
+ Un tuple (n-uplet) est une liste non-mutable. Un fois créé, un tuple ne peut en aucune manière être modifié.
+ 
+1       Vous ne pouvez pas ajouter d'élément à un tuple. Les tuples n'ont pas de méthodes append ou extend.
+2	Vous ne pouvez pas enlever d'éléments d'un tuple. Les tuples n'ont pas de méthodes remove ou pop.
+3	Vous ne pouvez pas rechercher d'éléments dans un tuple. Les tuples n'ont pas de méthode index.
+4	Vous pouvez toutefois utiliser in pour vérifier l'existence d'un élément dans un tuple.
+
+Mais à quoi servent donc les tuples ?
+
+Les tuples sont plus rapides que les listes. Si vous définissez un ensemble constant de valeurs et que tout ce que vous allez faire est le parcourir, utilisez un tuple au lieu d'une liste.
+Votre code est plus sûr si vous «protégez en écriture» les données qui n'ont pas besoin d'être modifiées
