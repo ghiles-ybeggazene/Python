@@ -8,3 +8,14 @@ ubuntu  developer en python
 pour le developement web on utilise le framework Django
 
 c'est un langage interpreté on aura directement le resultat il n'a pas pas besoin de se compilé
+
+
+
+execution   
+ 
+ 
+ # python --version          version de python 
+ 
+ # python                    ecrire du code python 
+ 
+ # py test.py                executer un fichier python
